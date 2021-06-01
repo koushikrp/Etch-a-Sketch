@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    padding: auto;
+}
+.container{
+    padding: 2px 40px;
+}
+.container div{
+    width: 90px;
+    height: 90px;
+    background-color:blueviolet;
+    border: 1px solid black;
+    float: left;
+}
