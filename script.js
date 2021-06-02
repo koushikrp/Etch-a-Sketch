@@ -57,11 +57,12 @@ button.addEventListener('click', (e) =>{
         container.firstChild.remove();
     }
     createDivs(newSquares*newSquares);
-    let divs = document.querySelectorAll(`.container div`);
-    divs.forEach(div => {
-        div.style.width = newSideLength;
-        div.style.height = newSideLength;
-    }
-    );
+    // let divs = document.querySelectorAll(`.container div`);
+    // divs.forEach(div => {
+    //     div.style.width = newSideLength;
+    //     div.style.height = newSideLength;
+    // }
+    // );
+    container.style.gridTemplateColumns = `repeat(${newSquares},${newSideLength}px)`;
 }
 );

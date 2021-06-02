@@ -6,6 +6,10 @@ body{
     padding: auto;
 }
 .container{
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 60px);
     width: 960px;
     height: 960px;
     position: relative;
@@ -13,9 +17,11 @@ body{
     padding-top: 10px;
 }
 .container div{
-    width: 60px;
-    height: 60px;
+    /* display: inline-block; */
+    /* float: left; */
+    /* width: 60px;
+    height: 60px; */
     background-color:blueviolet;
     border: 1px solid black;
-    float: left;
+    
 }
