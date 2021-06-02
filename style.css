@@ -6,11 +6,15 @@ body{
     padding: auto;
 }
 .container{
-    padding: 2px 40px;
+    width: 960px;
+    height: 960px;
+    position: relative;
+    left: 20%;
+    padding-top: 10px;
 }
 .container div{
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     background-color:blueviolet;
     border: 1px solid black;
     float: left;
